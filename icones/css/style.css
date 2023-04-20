@@ -1,0 +1,22 @@
+.row {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+i {
+  text-align: center;
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.bi.bi-instagram {
+  color: rgb(194, 45, 137);
+}
+
+.bi.bi-whatsapp {
+  color: rgb(12, 99, 12);
+}
+
+.bi.bi-mailbox {
+  color: rgb(13, 79, 119);
+}
