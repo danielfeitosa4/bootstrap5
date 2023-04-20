@@ -1,0 +1,15 @@
+.col  {
+  height: 50px;
+  border: 1px solid brown;
+  margin: auto;
+}
+
+.imp {
+  background-color: #000;
+  color: #fff;
+}
+
+.par {
+  background-color: lightgray;
+  color: #000;
+}
