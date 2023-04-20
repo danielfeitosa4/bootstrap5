@@ -78,6 +78,20 @@ h1 {
   border: 2px solid red;
 }
 
+/* gutter */
+#gutter .row {
+  height: 200px;
+}
+
+#gutter .col-6 {
+  margin: auto;
+  height: 50px;
+}
+
+#gutter p {
+  border: 2px solid green;
+}
+
 /* SM >= 576px */
 @media (min-width: 576px) {
   h1 {
