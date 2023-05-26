@@ -87,5 +87,43 @@
     </form>
   </div>
 
+  <!-- Input de Arquivos-->
+  <div class="col-4 m-4">
+    <h2>Testes inputs de arquivo</h2>
+    <form action="">
+      <div class="mb-4">
+        <label for="photo" class="form-label">Apenas um arquivo:</label>
+        <input type="file" class="form-control" name="photo" id="photo">
+      </div>
+      <div class="mb-4">
+        <label for="photos" class="form-label">Múltiplos arquivos:</label>
+        <input type="file" class="form-control" name="photos" id="photos" multiple>
+      </div>
+      <div class="mb-4">
+        <label for="photos2" class="form-label">Input file desabilitado:</label>
+        <input type="file" class="form-control" name="photos2" id="photos2" disabled>
+      </div>
+    </form>
+  </div>
+
+  <!-- Outros -->
+  <div class="col-4 m-4">
+    <h2>Outros inputs</h2>
+    <form action="">
+      <!-- Data list-->
+      <div class="mb-4">
+        <label for="cidades" class="form-label">Selecione uma cidade:</label>
+        <input class="form-control" list="datalistOptions" id="cidades" placeholder="Busque a sua cidade...">
+        <datalist id="datalistOptions">
+          <option value="São Paulo">
+          <option value="Rio de Janeiro">
+          <option value="Aracaju">
+          <option value="Florianópolis">
+          <option value="Porto Alegre">
+        </datalist>
+      </div>
+    </form>
+  </div>
+
 </body>
 </html>
