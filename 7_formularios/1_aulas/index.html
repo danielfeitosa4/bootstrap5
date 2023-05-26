@@ -16,23 +16,54 @@
   
   <!-- Criando form-->
   <div class="col-4 m-4">
-
-    <h2>Formulário de Registo</h2>
+    <h2>Formulário de Registro</h2>
     <form action="">
       <div class="mb-4">
         <label for="email" class="form-label">E-mail:</label>
-        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Insira seu e-mail">
+        <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Insira seu e-mail">
         <div id="emailHelp" class="form-text">Não compartilhamos seu endereço de e-mail.</div>
       </div>
       <div class="mb-4">
-        <label for="password" class="form-label">Senha:</label>
-        <input type="password" class="form-control" id="password" name="password" placeholder="Insira sua senha">
+        <label for="password" class="form-label">Password:</label>
+        <input type="password" class="form-control" name="password" id="password" aria-describedby="passwordHelp" placeholder="Insira sua senha">
+        <div id="passwordHelp" class="form-text">Mantemos a sua senha criptografada.</div>
       </div>
       <!-- <input type="submit" class="btn btn-primary" value="Cadastrar"> -->
       <button type="submit" class="btn btn-primary">Cadastrar</button>
     </form>
-
   </div>
 
+  <!-- Form desabilitado -->
+  <div class="col-4 m-4">
+    <h2>Formulário Desabilitado</h2>
+    <form action="">
+      <fieldset disabled>
+        <div class="mb-4">
+          <label for="email" class="form-label">E-mail:</label>
+          <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Insira seu e-mail" disabled>
+          <div id="emailHelp" class="form-text">Não compartilhamos seu endereço de e-mail.</div>
+        </div>
+        <div class="mb-4">
+          <label for="password" class="form-label">Password:</label>
+          <input type="password" class="form-control" name="password" id="password" aria-describedby="passwordHelp" placeholder="Insira sua senha">
+          <div id="passwordHelp" class="form-text">Mantemos a sua senha criptografada.</div>
+        </div>
+        <!-- <input type="submit" class="btn btn-primary" value="Cadastrar"> -->
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+      </fieldset>
+    </form>
+  </div>
+
+  <!-- Form Control-->
+  <div class="m-4">
+    <h2>Crie seu Post</h2>
+    <form action="">
+      <div class="m-4">
+        <label for="title"  class="form-label">Título do Post:</label>
+        <input type="text" class="form-control" name="title" id="title" placeholder="Digite seu título">
+      </div>
+    </form>
+  </div>
+  
 </body>
 </html>
