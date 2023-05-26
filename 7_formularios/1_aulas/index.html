@@ -58,12 +58,34 @@
   <div class="m-4">
     <h2>Crie seu Post</h2>
     <form action="">
-      <div class="m-4">
+      <div class="col-4 mb-4">
         <label for="title"  class="form-label">Título do Post:</label>
-        <input type="text" class="form-control" name="title" id="title" placeholder="Digite seu título">
+        <input type="text" class="form-control form-control-sm" name="title" id="title" placeholder="Digite seu título">
       </div>
+      <div class="col-4 mb-4">
+        <label for="content" class="form-label">Conteúdo:</label>
+        <textarea class="form-control" placeholder="Digite o conteúdo do post"></textarea>
+      </div>
+      <button type="submit" class="btn btn-success">Enviar</button>
     </form>
   </div>
-  
+
+  <!-- Ready Only -->
+  <!-- OBS: O readonly é uma forma de enviar os dados para o servidor, já o disabled não envia!-->
+  <div class="col-4 m-4">
+    <h2>Formulário de Ready Only</h2>
+    <form action="">
+      <div class="mb-4">
+        <label for="email2" class="form-label">E-mail:</label>
+        <input type="email" class="form-control" name="email2" id="email2" placeholder="Insira seu e-mail" readonly value="danielfeitosa@hotmail.com">
+      </div>
+      <div class="mb-4">
+        <label for="email3" class="form-label">E-mail:</label>
+        <input type="email" class="form-control-plaintext" name="email3" id="email3" placeholder="Insira seu e-mail" readonly value="danielgama@gmail.com">
+      </div>
+      <button type="submit" class="btn btn-primary">Cadastrar</button>
+    </form>
+  </div>
+
 </body>
 </html>
